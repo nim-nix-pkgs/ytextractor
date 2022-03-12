@@ -11,19 +11,17 @@
         ]
       },
       "locked": {
-        "dir": "nimpkgs/a/ajax",
-        "lastModified": 1647045972,
-        "narHash": "sha256-1+1T16Lbq0FPnNk5Aw5yFOFcMV7YRVjEcPCCQrOZ0Co=",
-        "owner": "riinr",
-        "repo": "flake-nimble",
-        "rev": "e1e4a974d5604f8d0d02ea1e064159f6cf07a578",
+        "lastModified": 1647054992,
+        "narHash": "sha256-WgXzcWnZRpiyNLUdLI8Vay+d1yyAEWK4oWoCodEYRws=",
+        "owner": "nim-nix-pkgs",
+        "repo": "ajax",
+        "rev": "96e067888a1a2bfd17a16b6a0656f17f95f5e4a3",
         "type": "github"
       },
       "original": {
-        "dir": "nimpkgs/a/ajax",
-        "owner": "riinr",
-        "ref": "flake-pinning",
-        "repo": "flake-nimble",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "ajax",
         "type": "github"
       }
     },
@@ -40,7 +38,7 @@
         "src-ajax-master": "src-ajax-master"
       },
       "locked": {
-        "narHash": "sha256-dTR0fYoDK+ZliTBinum01bOvLJL1GDX2wU0xcLX24W4=",
+        "narHash": "sha256-rTK+rW4//iVhvo9pzQpS5o9mO66MVgYriMETj4kAfPQ=",
         "path": "./master",
         "type": "path"
       },
