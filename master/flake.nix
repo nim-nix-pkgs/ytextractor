@@ -13,7 +13,7 @@
   inputs.src-ytextractor-master.repo  = "ytextractor";
   inputs.src-ytextractor-master.type  = "github";
   
-  inputs."ajax".owner = "nix-nim-pkgs";
+  inputs."ajax".owner = "nim-nix-pkgs";
   inputs."ajax".ref   = "master";
   inputs."ajax".repo  = "ajax";
   inputs."ajax".type  = "github";
