@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-ytextractor-master.flake = false;
+  inputs.src-ytextractor-master.ref   = "refs/heads/master";
   inputs.src-ytextractor-master.owner = "thisago";
-  inputs.src-ytextractor-master.ref   = "master";
   inputs.src-ytextractor-master.repo  = "ytextractor";
   inputs.src-ytextractor-master.type  = "github";
   
