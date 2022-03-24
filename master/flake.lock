@@ -2,48 +2,21 @@
   "nodes": {
     "ajax": {
       "inputs": {
-        "ajax-master": "ajax-master",
         "flakeNimbleLib": [
           "flakeNimbleLib"
         ],
         "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1648107231,
-        "narHash": "sha256-r/TPeypJRuxWdYip8gJjHCy8BUiCbZYbVDFAVxjKLuY=",
-        "owner": "nim-nix-pkgs",
-        "repo": "ajax",
-        "rev": "a8ae7c072d5ad8e9fc3cc6adc512ec9348f3e7ba",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "ajax",
-        "type": "github"
-      }
-    },
-    "ajax-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "ajax",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "ajax",
           "nixpkgs"
         ],
         "src-ajax-master": "src-ajax-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648107231,
-        "narHash": "sha256-r/TPeypJRuxWdYip8gJjHCy8BUiCbZYbVDFAVxjKLuY=",
+        "lastModified": 1648162890,
+        "narHash": "sha256-68fB2YhjDaRyZF2+JtxjoEy3VrkfTd5yXO3ycO1uNfg=",
         "owner": "nim-nix-pkgs",
         "repo": "ajax",
-        "rev": "a8ae7c072d5ad8e9fc3cc6adc512ec9348f3e7ba",
+        "rev": "58f8767d63105c9ddae5cb2dbacd596e84e23aab",
         "type": "github"
       },
       "original": {
