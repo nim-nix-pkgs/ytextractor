@@ -3,20 +3,22 @@
     "ajax": {
       "inputs": {
         "flakeNimbleLib": [
+          "ytextractor-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "ytextractor-master",
           "nixpkgs"
         ],
         "src-ajax-master": "src-ajax-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1651917703,
-        "narHash": "sha256-lB6rphpwrnh4xtDPM6VVAFgqU/LBwOg33k+7Pa2E6SE=",
+        "lastModified": 1651555212,
+        "narHash": "sha256-LvWKPR+FEzT4OH++0cvL1FxFElPxvnaVuLlckaqBeHc=",
         "owner": "nim-nix-pkgs",
         "repo": "ajax",
-        "rev": "e5d1faed0e0085f5426186baf95f4f171a07a89f",
+        "rev": "ae60cc70e8382cc19f00f2d6b01f536c74553f95",
         "type": "github"
       },
       "original": {
@@ -61,10 +63,9 @@
     },
     "root": {
       "inputs": {
-        "ajax": "ajax",
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-ytextractor-master": "src-ytextractor-master"
+        "ytextractor-master": "ytextractor-master"
       }
     },
     "src-ajax-master": {
@@ -97,6 +98,34 @@
       "original": {
         "owner": "thisago",
         "ref": "refs/heads/master",
+        "repo": "ytextractor",
+        "type": "github"
+      }
+    },
+    "ytextractor-master": {
+      "inputs": {
+        "ajax": "ajax",
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-ytextractor-master": "src-ytextractor-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1651556870,
+        "narHash": "sha256-MagtkBePnMe8bmqW/aGMMCTkbtE/jp1nQ/ue4Ofl8rE=",
+        "owner": "nim-nix-pkgs",
+        "repo": "ytextractor",
+        "rev": "4f13678e8fd145cb00656d2b9d3ce58175d95f13",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
         "repo": "ytextractor",
         "type": "github"
       }
