@@ -13,7 +13,7 @@
   "heads": [
     {
       "name": "ytextractor",
-      "version": "0.6.4",
+      "version": "0.9.0",
       "author": "Thiago Navarro",
       "desc": "Youtube data extractor",
       "license": "MIT",
@@ -26,10 +26,17 @@
       "requires": [
         {
           "name": "nim",
-          "str": ">= 1.2.2",
+          "str": ">= 1.6.4",
           "ver": {
             "kind": "verEqLater",
-            "ver": "1.2.2"
+            "ver": "1.6.4"
+          }
+        },
+        {
+          "name": "util",
+          "str": "any version",
+          "ver": {
+            "kind": "verAny"
           }
         },
         {
